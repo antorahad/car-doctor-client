@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.slide-one {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.6)), url('./assets/images/banner/1.jpg');
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slide-two {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.6)), url('./assets/images/banner/2.jpg');
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slide-three {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.6)), url('./assets/images/banner/3.jpg');
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slide-four {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.6)), url('./assets/images/banner/4.jpg');
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
