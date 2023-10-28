@@ -1,6 +1,7 @@
 import {
     createBrowserRouter,
   } from "react-router-dom";
+import Checkout from "../components/Checkout";
 import Error from "../components/Error";
 import Home from "../components/Home";
 import Login from "../components/Login";
@@ -18,13 +19,18 @@ import Layout from "../layout/Layout";
           element: <Home />,
         },
         {
+          path: "/checkout/:id",
+          element: <Checkout/>,
+          loader: ({params}) => fetch(`http://localhost:5000/services/${params.id}`)
+        },
+        {
           path: "/login",
           element: <Login/>
         },
         {
           path: "/register",
           element: <Register/>
-        },
+        }
       ],
     },
   ]);
